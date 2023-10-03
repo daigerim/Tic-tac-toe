@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Tic-tac-toe game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Martian+Mono:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="game_name" align="center">Tic-Tac-Toe</h1>
+    <table id="game_table" align="center">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    <div id="scoreboard" >
+        <div class="score_1">
+            <p>
+                X : <span id="xWins">0</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                O : <span id="oWins">0</span>
+            </p>
+        </div>
+        <button id="game_start" onclick="startGame()">Start Game</button>
+        <div class="score_2">
+            <p>Draws: <span id="draws">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

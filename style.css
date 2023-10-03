@@ -1,0 +1,53 @@
+h1 {
+    font-size: 70px;
+    color: #CFFF6B;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+#game_table{
+      margin-top: -35px;
+}
+#game_table td{
+    width: 180px;
+    height: 180px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 50px;
+    color: #CFFF6B;
+}
+
+#game_start{
+    background-color: #CFFF6B;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000000;
+    border: 2px solid #4F5151;
+    border-radius: 0%;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+#scoreboard p{
+    color: white;
+    font-family: 'Martian+Mono', sans-serif;
+    font-size: 20px;
+}
+
+.score_2{
+    display: inline-block;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.score_1{
+    display: inline-block;
+    text-align: right;
+    margin-right: 37px;
+    margin-left: 700px;
+}
